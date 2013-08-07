@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vaiphei Gospel Labu</string>
+    <string name="app_info">Application Information</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_song_list">SongListActivity</string>
+    <string name="title_activity_song_display">SongDisplayActivity</string>
+    <string name="action_search">Search Songs</string>
+    <string name="action_info">Song Information</string>
+    <string name="info_song_book_name">Book Name: </string>
+    <string name="info_song_writer">Writer: </string>
+    <string name="title_activity_song_fragment">SongFragmentActivity</string>
+
+</resources>

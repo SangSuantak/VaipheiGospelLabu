@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaiphei.gospellabu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vaiphei.gospellabu.SongBookActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vaiphei.gospellabu.SongListActivity"
+            android:label="@string/title_activity_song_list" >
+        </activity>
+        <activity
+            android:name="com.vaiphei.gospellabu.SongDisplayActivity"
+            android:label="@string/title_activity_song_display" >
+        </activity>
+        <activity
+            android:name="com.vaiphei.gospellabu.SongFragmentActivity"
+            android:label="@string/title_activity_song_fragment" >
+        </activity>
+    </application>
+
+</manifest>
